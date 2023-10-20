@@ -1,28 +1,38 @@
-#receitas1{
-    font-size: 20px;
-    display: flex;
-    width: 200px;
-    height: auto;
+div{
+    padding: 10px;
+    display: inline-block;
+    width:400px;
+    height: 600px;
     background-color: bisque;
+    margin: 10px;
+    
+}
+h3{
+    padding-top: 20px;
+    font-size: 25px;
+    font: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    
 }
 
-#receitas2{
-    display: flex;
-    width: 200px;
-    height: auto;
-    background-color: bisque;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ul{
+    font-size: 18px;
+    color:black;
+    padding-left: 40px;    
 }
 
-#receitas3{
-    display: flex;
-    width: 200px;
-    height: auto;
-    background-color: bisque;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 p{
-    font-size: 15px;
-    color: azure;
+    position: relative;
+    font-size: 18px;
+    color:black;
+    text-align: justify;
+    padding:0 10px 0px 10px;
+}
+
+img{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    
 }

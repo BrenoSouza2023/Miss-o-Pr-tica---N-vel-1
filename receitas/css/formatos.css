@@ -7,10 +7,11 @@ main{
     background: #E9967A;
 }
 
-nav{    
+nav{ 
+    margin: 0;   
     font-size: 30px;
-    height: 8vh;    
- }
+    height: 8vh; 
+}
 
 a{
     color: black;
