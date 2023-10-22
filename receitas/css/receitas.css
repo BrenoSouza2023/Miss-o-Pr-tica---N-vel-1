@@ -1,13 +1,19 @@
-div{
-    padding: 10px;
-    display: inline-block;
-    width:400px;
-    height: 600px;
-    background-color: bisque;
-    margin: 10px;
-    
+.container{
+    display: flex; 
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    align-items: center; /* Centraliza as divs verticalmente */                
 }
-h3{
+
+.receita1, .receita2, .receita3 {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 620px;
+    background-color:bisque;
+    
+  }
+
+  h3{
     padding-top: 20px;
     font-size: 25px;
     font: bold;
@@ -16,23 +22,34 @@ h3{
     
 }
 
-ul{
-    font-size: 18px;
+.ingredientes1 {
+    position: relative;
+    font-size: 22px;
     color:black;
-    padding-left: 40px;    
+    padding-left: 40px; 
+    bottom:18%;   
 }
 
 p{
     position: relative;
-    font-size: 18px;
+    font-size: 22px;
     color:black;
     text-align: justify;
-    padding:0 10px 0px 10px;
+    bottom: 13%;
 }
 
 img{
     position: relative;
     margin: 0 auto;
     display: block;
+    right:132%;
+    bottom:25%;       
     
+}
+
+hr {
+    border: 1px solid black; 
+    margin: 20px 0;
+    bottom: 15%;
+    position: relative;
 }
