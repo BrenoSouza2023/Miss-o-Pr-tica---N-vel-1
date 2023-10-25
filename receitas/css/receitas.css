@@ -1,55 +1,47 @@
 .container{
-    display: flex; 
-    justify-content: center; /* Centraliza as divs horizontalmente */
-    align-items: center; /* Centraliza as divs verticalmente */                
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 70%;   
+    padding: 0; 
+    margin: 0 auto;               
 }
 
 .receita1, .receita2, .receita3 {
-    margin: 10px;
-    padding: 20px;
-    width: 400px;
-    height: 620px;
+    position: relative;
     background-color:bisque;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 400px;
+    text-align: center;
+    margin: 0;
     
   }
 
-  h3{
-    padding-top: 20px;
-    font-size: 25px;
+  .receita1 h3, .receita2 h3, .receita3 h3{
+    text-align: center;
+    font-size: 30px;
     font: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align:center;
-    
-}
+  }
 
-.ingredientes1 {
-    position: relative;
-    font-size: 22px;
-    color:black;
-    padding-left: 40px; 
-    bottom:18%;   
-}
+  .receita1 ul, .receita2 ul, .receita3 ul{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 8%;
+  }
 
-p{
-    position: relative;
-    font-size: 22px;
-    color:black;
-    text-align: justify;
-    bottom: 13%;
-}
+  .receita1 p, .receita2 p, .receita3 p{
+    width: 80%;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: left;
+    margin-left: 5%;
 
-img{
-    position: relative;
-    margin: 0 auto;
-    display: block;
-    right:132%;
-    bottom:25%;       
-    
-}
+  }
 
-hr {
+  hr {
     border: 1px solid black; 
-    margin: 20px 0;
+    margin: 20px;
     bottom: 15%;
-    position: relative;
 }
