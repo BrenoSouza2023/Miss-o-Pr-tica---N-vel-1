@@ -1,47 +1,36 @@
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    width: 70%;   
-    padding: 0; 
-    margin: 0 auto;               
+    display: flex;  
+    justify-content:center;
+    width: 100%;   
+    padding: 0;             
 }
 
-.receita1, .receita2, .receita3 {
+.receita1, .receita2, .receita3, .card {
     position: relative;
     background-color:bisque;
     justify-content: center;
     align-items: center;
-    height: 650px;
-    width: 400px;
-    text-align: center;
-    margin: 0;
+    height: 400px;    
+    margin: 3%;
     
   }
 
-  .receita1 h3, .receita2 h3, .receita3 h3{
-    text-align: center;
-    font-size: 30px;
+  .card-title {
+    text-align:left;
+    font-size: 100%;
     font: bold;
   }
 
   .receita1 ul, .receita2 ul, .receita3 ul{
     text-align: left;
-    font-size: 20px;
-    margin-left: 8%;
+    font-size: 70%;
+    
   }
 
   .receita1 p, .receita2 p, .receita3 p{
-    width: 80%;
-    font-size: 25px;
-    margin-left: 10px;
-    text-align: left;
-    margin-left: 5%;
+    width: 100%;
+    font-size: 70%;    
+    text-align: left;   
 
   }
 
-  hr {
-    border: 1px solid black; 
-    margin: 20px;
-    bottom: 15%;
-}

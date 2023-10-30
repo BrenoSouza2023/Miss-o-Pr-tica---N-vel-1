@@ -2,38 +2,31 @@ body{  /* Config padrão */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    height: 100vh;
-    min-height: 100vh;
     background: #E9967A;
     
 }
 header {
-    padding: 10px 0;
+    
     width: 100%;
+    height: 60px;
+}
+
+.navbar{
+    height: 60px;
+    margin-top: 0;
+}
+.active{
+    font:bold;
+    color: #fff;
 }
 
 main{  /* Config padrão */
     flex: 1; 
-    min-height: 79vh;
+    height: calc(100vh - 85px);
     padding: 22px;
-}
-
-.menu ul { /* Config padrão */
-    list-style: none;
-    padding: 0 0 0 60px;
-    display: flex;       
-}
-
-.menu a { /* Config padrão */
-    text-decoration: none;
-    color: #000000;
-    font-size: 25px;    
-}
-
-    
-a{ /* Config padrão */
-   text-decoration: none;
-}
+    background:#E9967A;
+    overflow-y: auto;
+    } 
 
 .imghx {
     display: flex; 
@@ -58,7 +51,8 @@ h2 {
 footer{ /* Config padrão */
     background-color: black;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 25px;  
+    text-align: center;    
+    font-size: 15px;
+    height: 25px; 
+    padding: auto; 
 }
